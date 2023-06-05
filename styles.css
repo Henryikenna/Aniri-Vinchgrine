@@ -1,0 +1,389 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600;700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+}
+.firstSection {
+  background: url("images/bunglarge.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.firstSection header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 700px;
+}
+.firstSection header .headerLeft img {
+  width: 200px;
+}
+.firstSection header .headerRight {
+  display: block;
+  text-align: right;
+}
+.firstSection header .headerRight .hrUp {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+  gap: 20px;
+}
+.firstSection header .headerRight .hrUp .hruNo {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+}
+.firstSection header .headerRight .hruSocials {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+.firstSection header .headerRight .hruSocials a {
+  text-decoration: none;
+  color: #fff;
+}
+.firstSection header .headerRight .hruSocials a i {
+  font-size: 13px;
+}
+.firstSection header .headerRight .hrDown .hrdMenu {
+  display: flex;
+  gap: 30px;
+}
+.firstSection header .headerRight .hrDown .hrdMenu a {
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  text-decoration: none;
+  font-size: 13.5px;
+}
+.firstSection .fsfirstSec {
+  display: block;
+  text-align: center;
+  color: #fff;
+  font-family: "Lora", serif;
+  padding-top: 130px;
+  /* padding-bottom: 250px; */
+  padding-bottom: 260px;
+}
+.firstSection .fsfirstSec .fsfsfirstText {
+  margin: 1px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: "Lora", serif;
+}
+.firstSection .fsfirstSec .fsfssecondText {
+  margin: 1px;
+  font-weight: 500;
+  font-size: 48px;
+  letter-spacing: 3px;
+}
+.secondSection .inputsCol {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  background-color: #1e1e1e;
+  padding: 20px;
+  margin-top: -50px;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 0;
+  border-radius: 3px;
+  box-shadow: 0px 2px 2px 2px #1e1e1e;
+}
+.secondSection .inputsCol .ssicInput .ssiciTitle {
+  margin-bottom: 5px;
+  margin-top: 0;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 12.5px;
+}
+.secondSection .inputsCol .ssicInput input {
+  font-size: 11px;
+  padding: 10px 20px;
+  padding-left: 8px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.2px;
+  outline: none;
+  border-radius: 3px;
+  border: none;
+}
+.secondSection .inputsCol .ssicInput .ssici2 {
+  text-align: right;
+  padding-right: 8px;
+}
+.secondSection .inputsCol .ssicInput .ssici3 {
+  text-align: right;
+  padding-right: 8px;
+}
+.secondSection .inputsCol .ssicButton {
+  padding: 8px 20px;
+  border-radius: 3px;
+  border: none;
+  margin-top: 21px;
+  background-color: #603813;
+  cursor: pointer;
+}
+.secondSection .inputsCol .ssicButton i {
+  color: #fff;
+}
+
+.thirdSection {
+  margin-top: 60px;
+  text-align: center;
+}
+.thirdSection .tsHeader {
+  font-size: 29px;
+  font-family: "Lora", serif;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.thirdSection .tsHeader span {
+  color: #603813;
+}
+.thirdSection .tsbodyMain {
+  /* margin-top: 15px;
+    margin-bottom: 30px; */
+  display: grid;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  /* gap: 150px; */
+}
+.thirdSection .tsbodyMain .tsBody {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  gap: 120px;
+}
+.thirdSection .tsbodyMain .tsBody a {
+  text-decoration: none;
+  color: #000;
+  margin: 1px;
+  padding: 10px;
+  font-size: 17px;
+  border-bottom: 1px solid #603813;
+}
+
+.fourthSection {
+  margin-top: 70px;
+}
+
+.fourthSection .fousecHead {
+  font-size: 29px;
+  font-family: "Lora", serif;
+  font-weight: 200;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.fourthSection .fousecHead span {
+  color: #603813;
+}
+
+.fourthSection .fousecgridMain {
+  font-family: "Roboto", sans-serif;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.fourthSection .fousecgridMain .fousecgridColl {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: grid;
+  grid-template-columns: repeat(3, 400px);
+  grid-gap: 30px;
+  justify-content: center;
+  align-content: center;
+  align-items: center;
+}
+
+.fourthSection .fousecgridMain .fousecgridColl .fousecGrid {
+  text-align: center;
+  border-top: 4px solid #603813;
+  padding: 1px;
+  background-color: rgb(243, 243, 243);
+}
+
+.fourthSection .fousecgridMain .fousecgridColl .fousecGrid img {
+  width: 399px;
+  text-align: center;
+  justify-content: center;
+  height: 250px;
+}
+
+.fourthSection .fousecgridMain .fousecgridColl .fousecGrid .fsgAddress {
+  margin-top: 5px;
+  font-size: 12.5px;
+}
+
+.fourthSection .fousecgridMain .fousecgridColl .fousecGrid .fsgPrice b {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.fourthSection .fousecgridMain .fousecgridColl .fousecGrid .fsgPrice {
+  font-size: 13px;
+  margin: -5px;
+}
+
+.fourthSection .fousecgridMain .fousecgridColl .fousecGrid .fsgDesc {
+  font-size: 13px;
+  line-height: 19px;
+}
+
+.fourthSection .fousecgridMain .fousecgridButton {
+  text-align: center;
+}
+.fourthSection .fousecgridMain .fousecgridButton a {
+  text-decoration: none;
+  color: #fff;
+  background-color: #603813;
+  padding: 15px 50px;
+  border-radius: 1px;
+}
+.fifthSection .fifsecwoodGrid {
+  display: flex;
+  width: 100%;
+  margin-top: 80px;
+}
+
+.fifthSection .fifsecwoodGrid .fswgLeft {
+  background: url("images/woodm1.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50%;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-bottom: 120px;
+}
+
+.fifthSection .fifsecwoodGrid .fswgLeft .fswgfirstText {
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  width: 300px;
+  color: #fff;
+}
+
+.fifthSection .fifsecwoodGrid .fswgLeft .fswgsecondText {
+  font-family: "Roboto", sans-serif;
+  width: 400px;
+  font-size: 12.5px;
+  margin-top: -19px;
+  color: #fff;
+}
+
+.fifthSection .fifsecwoodGrid .fswgLeft .fswgsignupLink a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background-color: #603813;
+  padding: 10px 15px;
+  border-radius: 1px;
+}
+
+.fifthSection .fifsecwoodGrid .fswgRight {
+  background: url("images/woodm2.png");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  width: 50%;
+  padding-top: 40px;
+  padding-left: 50px;
+  padding-bottom: 120px;
+}
+
+.fifthSection .fifsecwoodGrid .fswgRight .fswgfirstText {
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+  font-size: 28px;
+  font-weight: 400;
+  letter-spacing: 1px;
+  width: 300px;
+  color: #fff;
+}
+
+.fifthSection .fifsecwoodGrid .fswgRight .fswgsecondText {
+  font-family: "Roboto", sans-serif;
+  width: 400px;
+  font-size: 12.5px;
+  margin-top: -19px;
+  color: #fff;
+}
+
+.fifthSection .fifsecwoodGrid .fswgRight .fswgsignupLink a {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  background-color: #603813;
+  padding: 10px 15px;
+  border-radius: 1px;
+}
+
+footer {
+  background-color: #1e1e1e;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+footer .avffirstSection .avfSocials {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+}
+
+footer .avffirstSection .avfSocials .avfsIcon i {
+  color: #fff;
+  font-size: 15px;
+}
+
+footer .avffirstSection .avffsFirstSec .avffsfsName {
+  font-family: "Lora", serif;
+  color: #fff;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 20px;
+}
+
+footer .avffirstSection .avffsFirstSec .avffsfsName span {
+  color: #603813;
+}
+
+footer .avffirstSection .avffsFirstSec .avffsfsnameOther {
+  justify-content: center;
+  color: #fff;
+  margin-top: -20px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+  font-size: 14px;
+  display: flex;
+  gap: 10px;
+}
+
+footer .avffirstSection .avffsFirstSec .avffsfsnameOther a {
+  text-decoration: none;
+  color: #fff;
+}
+footer .avffirstSection .avffsfsImg {
+  text-align: center;
+}
+footer .avffirstSection .avffsfsImg img {
+  width: 250px;
+}
+footer .avffirstSection .avffsfssecondSec p {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  line-height: 20px;
+  font-size: 12px;
+}
